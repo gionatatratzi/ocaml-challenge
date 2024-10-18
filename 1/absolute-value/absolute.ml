@@ -1,0 +1,1 @@
+let f n = abs(n);;

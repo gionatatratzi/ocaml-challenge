@@ -22,3 +22,5 @@ let poker (c1,c2,c3,c4,c5) =
   poker4(c1,c2,c4,c5) ||
   poker4(c1,c2,c3,c5) ||
   poker4(c2,c3,c4,c5);;
+
+poker (rndHand());;

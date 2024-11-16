@@ -3,8 +3,7 @@ let string_of_list l =
   [] -> ""
   | [x] -> (string_of_int x)
   | x::l -> (string_of_int x) ^ ";" ^ (string_of_list_rec l)
-    in "[" ^ (string_of_list_rec l) ^ "]"
-;;
+    in "[" ^ (string_of_list_rec l) ^ "]";;
 
 assert(string_of_list [] = "[]");;
 assert(string_of_list [1] = "[1]");;
